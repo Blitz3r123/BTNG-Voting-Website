@@ -1,41 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>
-			Voting Website	
-		</title>
-		<link rel="stylesheet" href="css/index-style.css">
+		<title>Voting Register</title>
+		<link rel="stylesheet" href="css/register-style.css">
 		<link rel="stylesheet" href="css/universal-style.css">
 		<!-- Bootstrap 4 CDN -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	</head>
 	<body>
-		<!-- Google Charts -->
-		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-		<script type="text/javascript">
-			google.charts.load('current', {'packages':['corechart']});
-			google.charts.setOnLoadCallback(drawChart);
-
-			function drawChart() {
-
-				var data = google.visualization.arrayToDataTable([
-					['Party', 'Number of Votes'],
-					['All Progressives Congress', 1000],
-					['Peoples Democratic Party', 300],
-					['Social Democratic Party', 240],
-					['Allied Congress Party of Nigeria', 240],
-					['Young Progressive Party', 240]
-					]);
-
-				var options = {
-					title: 'Top 5 Parties\' Votes'
-				};
-
-				var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-				chart.draw(data, options);
-			}
-		</script>
 
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="index.html" style="font-size: 2em; color: #66ff66;">Voting</a>
@@ -54,14 +26,6 @@
 				</ul>
 			</div>
 		</nav>
-
-		<div class="vote-now-section">
-			<a href="" id="vote-now-button">Vote Now</a>
-		</div>
-		
-		<div class="section-two">
-			<div id="piechart" style="width: 50vw; height: 50vh;"></div>
-		</div>
 
 		<!-- Javascript Dependencies -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
