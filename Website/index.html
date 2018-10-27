@@ -19,16 +19,14 @@
 			function drawChart() {
 
 				var data = google.visualization.arrayToDataTable([
-					['Task', 'Hours per Day'],
-					['Work',     11],
-					['Eat',      2],
-					['Commute',  2],
-					['Watch TV', 2],
-					['Sleep',    7]
+					['Party', 'Number of Votes'],
+					['PartyOne', 1000],
+					['PartyTwo', 300],
+					['PartyThree', 240]
 					]);
 
 				var options = {
-					title: 'My Daily Activities'
+					title: 'Nigeria Votes'
 				};
 
 				var chart = new google.visualization.PieChart(document.getElementById('piechart'));
@@ -37,7 +35,7 @@
 			}
 		</script>
 
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="index.html" style="font-size: 2em;">Voting</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
