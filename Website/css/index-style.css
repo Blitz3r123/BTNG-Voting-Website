@@ -3,3 +3,8 @@
 	height: 50vh;
 	outline: 1px solid black;
 }
+
+#vote-now-button{
+	width: 20vw;
+	margin-left: 30vw;
+}
