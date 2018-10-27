@@ -1,0 +1,13 @@
+.vote-now-section{
+	width: 100vw;
+	height: 50vh;
+	outline: 1px solid black;
+}
+
+#vote-now-button{
+	width: 20vw;
+	margin-left: 40vw;
+	height: 10vh;
+}
+
+#vote-now-button{}
